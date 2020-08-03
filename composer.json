@@ -45,4 +45,5 @@
         "bin-dir": "vendor/bin"
     },
     "minimum-stability": "stable"
+
 }
