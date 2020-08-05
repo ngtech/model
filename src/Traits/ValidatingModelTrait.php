@@ -250,6 +250,6 @@ trait ValidatingModelTrait
     public function updateRulesetUniques($ruleset = null)
     {
         $rules = $this->getRuleset($ruleset);
-        $this->setRuleset($ruleset, $this->injectUniqueIdentifierToRules($rules));
+        $this->setRuleset($this->injectUniqueIdentifierToRules($rules),$ruleset);
     }
 }
